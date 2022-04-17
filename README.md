@@ -81,22 +81,22 @@ The baseline model exploration helped us to spot a couple of issues that need to
 
 Enhancements include:
 
-Balance the data
-SMOTE
-in-built balancing
-Clean and impute the outliers and missing values
-Cross validation
-Text preprocessing and lemmatization
-Feature Engineering
-Adding features on punctuation count and sentiment score from text data
-Adding features on time of day and day of week from some numeric features
-Scale the data
-Remove highly correlated numeric features
-Measure F1 score instead of accuracy
-Reduce the vocab size
-Using only the top 1000 most frequent words
-Using L1 regularization
-Each of these techniques, except for reducing vocab size increased Logistic Regression's and sometimes KNN model's F1 scores.
+- Balance the data
+    - SMOTE
+    - in-built balancing
+- Clean and impute the outliers and missing values 
+- Cross validation
+- Text preprocessing and lemmatization
+- Feature Engineering 
+    - Adding features on punctuation count and sentiment score from text data
+    - Adding features on time of day and day of week from some numeric features
+- Scale the data
+- Remove highly correlated numeric features
+- Measure F1 score instead of accuracy
+- Reduce the vocab size
+    - Using only the top 1000 most frequent words 
+    - Using L1 regularization 
+    
 
 We use F1 score, instead of accuracy, as a measure of performance because our original datset was heavily imbalanced.
 
