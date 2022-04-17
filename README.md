@@ -18,7 +18,7 @@ We have provided a summary of measure performance at the end to show which model
 
 Lessons from this exercise could be valuable to not only the Reddit community, but other social platforms that wish to improve their user engagement through NLP techniques.
 
-
+## Outline
 1. Baseline Submission
 	- 1.1. Introduction
 	- 1.2. EDA on textual data
