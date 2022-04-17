@@ -62,7 +62,7 @@ Appendix
 Aside from the requesters' text and title requesting for the pizza, there are some meta data like the number of comments the requesters has posted on the different subreddits, time stamp information of the request, number of upvotes...etc.
 
 # Getting Started
-Notebook W207_Final_Project.ipynb contains the eda and the different models we have tried. The final best performing model, xgboost, has the following performance on the test data: : accuracy = 0.8527, precision = 0.7277, recall = 0.6748, f1 = 0.7003.
+Notebook RequestSuccessful_Predictor.ipynb contains the eda and the different models we have tried. The final best performing model, xgboost, has the following performance on the test data: : accuracy = 0.8527, precision = 0.7277, recall = 0.6748, f1 = 0.7003.
 
 
 # Prerequisites
