@@ -115,18 +115,12 @@ We aim for this analysis to provide helpful insight into user language patterns 
 
 # Future work 
 1) Feature engineer or work on collecting some meta data that may offer more predictive power. Some ideas include: 
-
-  a) which store location gave out the free pizzas in the past
-  
-  b) what keywords caught owner’s eyes
-  
-  c) which sentence the owner agree or disagree with the most (kinda similar to 2)
-  
-  d) which employee approved the request / brought the requests to the decision-maker 
-  
-  e) sales of the day //poor-performing stores probably can't give much 
-  
-  f) leftover or excess pizzas at end of day
+* which store location gave out the free pizzas in the past
+* what keywords caught owner’s eyes
+* which sentence the owner agree or disagree with the most (kinda similar to 2)
+* which employee approved the request / brought the requests to the decision-maker 
+* sales of the day //poor-performing stores probably can't give much 
+* leftover or excess pizzas at end of day
 
 
 2) Hyperparameter tune the xgboost model with HypOpt, which is a more efficient and "smart" tuning than GridSearchCV.
